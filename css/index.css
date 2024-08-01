@@ -370,13 +370,21 @@ body {
 	max-height: 90px;
 }
 
+img.apiss-brand {
+	max-height: 32px;
+}
+img.rizzle-brand {
+	max-height: 105px;
+	margin-bottom: -7px;
+}
+
 @keyframes infiniteSlider {
 	from {
 		transform: translateX(0%);
 	}
 	to {
 		/* transform: translateX(-50%); */
-		transform: translateX(calc(-280px * 10));
+		transform: translateX(calc(-280px * 11));
 	}
 }
 
@@ -1159,7 +1167,7 @@ img.google-icon {
 		}
 		to {
 			/* transform: translateX(-50%); */
-			transform: translateX(calc(-250px * 10));
+			transform: translateX(calc(-250px * 11));
 		}
 	}
 
@@ -1544,7 +1552,7 @@ img.google-icon {
 		}
 		to {
 			/* transform: translateX(-50%); */
-			transform: translateX(calc(-165px * 10));
+			transform: translateX(calc(-165px * 11));
 		}
 	}
 
@@ -1573,13 +1581,15 @@ img.google-icon {
 		top: auto;
 	}
 	.slider-arrows-container {
-		position: relative;
-		top: 2px;
+		top: 55%;
 		right: auto;
+		width: 100%;
+		justify-content: space-between;
 	}
 	.swiper-button-prev img,
 	.swiper-button-next img {
-		width: 21px;
+		width: 35px;
+		height: 25px;
 	}
 	.swiper-control {
 		display: flex;
@@ -1709,5 +1719,10 @@ img.google-icon {
 	}
 	.titles-container {
 		gap: 7px;
+	}
+	.swiper-button-prev img,
+	.swiper-button-next img {
+		width: 25px;
+		height: 20px;
 	}
 }
