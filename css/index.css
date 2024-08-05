@@ -371,11 +371,20 @@ body {
 }
 
 img.apiss-brand {
-	max-height: 32px;
+	max-height: 25px;
+}
+img.dymo-brand {
+	max-height: 70px;
+}
+img.choux-brand {
+	max-height: 46px;
 }
 img.rizzle-brand {
 	max-height: 105px;
 	margin-bottom: -7px;
+}
+img.rizami-brand {
+	max-height: 52px;
 }
 
 @keyframes infiniteSlider {
@@ -1543,6 +1552,11 @@ img.google-icon {
 	img.apiss-brand {
 		max-height: 20px;
 	}
+	img.dymo-brand {
+	}
+	img.choux-brand {
+	}
+
 	.tape-wrapper {
 		gap: 45px;
 	}
