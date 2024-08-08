@@ -1544,17 +1544,22 @@ img.google-icon {
 		max-height: 70px;
 	}
 	img.n97-brand {
-		max-height: 35px;
+		max-height: 31px;
 	}
 	img.rizzle-brand {
 		margin-bottom: -6px;
 	}
 	img.apiss-brand {
-		max-height: 20px;
+		max-height: 15px;
 	}
 	img.dymo-brand {
+		max-height: 43px;
 	}
 	img.choux-brand {
+		max-height: 31px;
+	}
+	img.rizami-brand {
+		max-height: 33px;
 	}
 
 	.tape-wrapper {
